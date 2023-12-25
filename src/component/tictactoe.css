@@ -1,0 +1,19 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4px;
+}
+
+.itemBox{
+    
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white !important;
+    font-size: 5rem;
+}
+
+.center-align{
+    text-align: center;
+}
